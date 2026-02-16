@@ -1,5 +1,11 @@
 ## Результати проєкту
+Python ETL pipeline for cleaning and transforming a real-world contact dataset.
 
+The project demonstrates a full data processing workflow:
+• data extraction from CSV
+• data cleaning and normalization
+• feature engineering
+• export of analytical dataset
 ## How to run
 
 ```bash
@@ -24,3 +30,11 @@ python project.py
 - вибірки та агреговані статистики — у форматі Excel з окремими аркушами.
 
 Отриманий у результаті DataFrame є структурованим, аналітично готовим та придатним для подальшого аналізу, візуалізації або використання у бізнес-завданнях.
+
+## Output
+
+After running the script, a cleaned dataset will be generated:
+
+uk500_clean.csv — ready-to-use analytical table
+stats.xlsx — aggregated statistics
+gmail_users.csv — filtered Gmail users
