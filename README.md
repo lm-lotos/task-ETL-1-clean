@@ -35,6 +35,10 @@ python project.py
 
 After running the script, a cleaned dataset will be generated:
 
-uk500_clean.csv — ready-to-use analytical table
-stats.xlsx — aggregated statistics
-gmail_users.csv — filtered Gmail users
+### Output
+
+After running the script, the following files will be generated:
+
+- **uk500_clean.csv** — cleaned analytical dataset
+- **stats.xlsx** — aggregated statistics
+- **gmail_users.csv** — filtered Gmail users
